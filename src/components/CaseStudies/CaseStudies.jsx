@@ -140,7 +140,7 @@ function CaseStudies() {
   ];
 
   return (
-    <div className="min-h-screen mt-50 mb-50 bg-gray-100 font-sans antialiased flex flex-col">
+    <div className="min-h-screen mt-50 md:mb-50 bg-gray-100 font-sans antialiased flex flex-col">
       {/* Hero Section for Case Studies Page */}
       <section className="bg-orange-500 text-white py-16 px-4 md:px-8 lg:px-16 text-center">
         <h1 className="text-4xl md:text-5xl font-extrabold leading-tight mb-4">

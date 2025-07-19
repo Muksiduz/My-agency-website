@@ -2,9 +2,9 @@ import React from "react";
 
 const LetsTalk = () => {
   return (
-    <div className=" bg-white font-sans antialiased">
+    <div className=" bg-white font-sans antialiased ">
       {/* Main Section */}
-      <section className="bg-blue-900  h-100 py-16 px-4 md:px-8 lg:px-30 flex flex-col lg:flex-row items-center justify-center lg:justify-between  mx-auto  my-8">
+      <section className="bg-blue-900  h-content md:h-100 py-16 px-4 md:px-8 lg:px-30 flex flex-col lg:flex-row items-center justify-center lg:justify-between  mx-auto  my-8">
         {/* Left Section - Call to Action */}
         <div className="text-center  lg:text-left mb-12 lg:mb-0 lg:mr-8">
           <h2 className="text-4xl md:text-5xl font-extrabold  text-white leading-tight ">
@@ -19,7 +19,7 @@ const LetsTalk = () => {
         </div>
 
         {/* Right Section - Feature Cards */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div className=" grid grid-cols-1 md:grid-cols-3 gap-8">
           {/* Feature Card 1 */}
           <div className="relative bg-white text-gray-500 p-6 rounded-lg shadow-xl text-center flex flex-col items-center justify-center min-h-[200px] w-64">
             <div className="absolute -top-6 bg-white w-12 h-12 rounded-lg shadow-md flex items-center justify-center">

@@ -1,4 +1,5 @@
 import React from "react";
+import founder from "../../assets/founder.jpeg";
 
 const AboutFounder = () => {
   return (
@@ -8,7 +9,7 @@ const AboutFounder = () => {
         {/* Founder Image */}
         <div className="flex-shrink-0 w-full lg:w-1/3 flex justify-center">
           <img
-            src="https://placehold.co/300x300/ADD8E6/000000?text=Founder+Image"
+            src={founder}
             alt="Founder Name"
             className="rounded-full w-64 h-64 object-cover shadow-lg border-4 border-blue-400"
             onError={(e) => {
@@ -28,17 +29,22 @@ const AboutFounder = () => {
             Muksiduz Zaman
           </h3>
           <p className="text-gray-700 leading-relaxed mb-6">
-            John Doe is a visionary leader with over 15 years of experience in
-            the digital marketing industry. He founded [Your Company Name] with
-            a passion for helping businesses thrive online, driven by a belief
-            in data-driven strategies and transparent client relationships.
+            At the heart of Saabr Digital is a simple goal: to help small
+            businesses grow online with creativity, consistency, and results. I
+            started this journey with a passion for website development, digital
+            marketing, and content creation, driven by the belief that every
+            business — no matter how small — deserves a digital presence that
+            works. My experience comes not from big agencies but from hands-on
+            work, solving real problems for real businesses. With a background
+            in web development, content creation, and marketing strategies, I
+            understand the unique challenges that small and local businesses
+            face. I’ve built Saabr Digital as a platform where companies can get
+            reliable, affordable, and effective digital solutions without any
+            unnecessary complexity or jargon. At Saabr Digital, it’s not just
+            about delivering a service. It’s about helping clients generate
+            leads, create impact, and build trust with their audience.
           </p>
-          <p className="text-gray-700 leading-relaxed mb-6">
-            Prior to establishing [Your Company Name], John held key leadership
-            roles at various tech startups, where he honed his expertise in SEO,
-            paid advertising, and content strategy. His commitment to innovation
-            and client success has been the cornerstone of the company's growth.
-          </p>
+
           <p className="text-gray-700 leading-relaxed italic border-l-4 border-orange-500 pl-4 py-2">
             "Our mission is to empower businesses with the digital tools and
             strategies they need to not just compete, but to dominate their
