@@ -1,6 +1,8 @@
 import { useState } from "react";
 import logo from "../../assets/logo.jpg";
 
+import { Link } from "react-router-dom";
+
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -9,7 +11,8 @@ const Navbar = () => {
       {/* Navigation Bar */}
       <nav className="flex items-center justify-between p-4 bg-white shadow-md rounded-lg mx-auto mt-4 md:px-30">
         {/* Logo and Brand Name */}
-        <div className="flex items-center space-x-2">
+
+        <Link className="flex items-center space-x-2" to="/">
           <div className="w-10 h-10 bg-gray-200 rounded-full flex items-center justify-center">
             <img
               src={logo}
@@ -18,7 +21,7 @@ const Navbar = () => {
             />
           </div>
           <span className="text-orange-500 text-2xl font-bold">Saabr</span>
-        </div>
+        </Link>
 
         {/* Hamburger Menu (Mobile) */}
         <div className="md:hidden">
@@ -52,11 +55,11 @@ const Navbar = () => {
 
         {/* Navigation Links Desktop */}
         <div className="hidden md:flex space-x-8">
-          <a
-            href="#"
+          <Link
+            to="/"
             className="text-gray-700 hover:text-blue-600 text-lg font-medium transition">
             Home
-          </a>
+          </Link>
           <a
             href="#"
             className="text-gray-700 hover:text-blue-600 text-lg font-medium transition">
@@ -77,7 +80,7 @@ const Navbar = () => {
         {/* Contact Us Button Desktop */}
         <div className="hidden md:block">
           <button className="bg-gradient-to-r from-orange-500 to-orange-600 hover:from-orange-600 hover:to-orange-700 cursor-pointer text-white font-semibold py-2 px-6 rounded-lg shadow-md transition">
-            Contact us
+            <Link to="/contact">Contact us</Link>
           </button>
         </div>
       </nav>
@@ -105,7 +108,7 @@ const Navbar = () => {
             className="text-gray-700 hover:text-blue-600 text-lg font-medium transition">
             Products
           </a>
-          <button className="w-full bg-gradient-to-r from-orange-500 to-orange-600 hover:from-orange-600 hover:to-orange-700 text-white font-semibold py-2 rounded-lg shadow-md transition">
+          <button className="w-full bg-gradient-to-r from-orange-500 to-orange-600 hover:from-orange-600 hover:to-orange-700 hover:scale-x-125 cursor-pointer text-white font-semibold py-2 rounded-lg shadow-md transition">
             Contact us
           </button>
         </div>

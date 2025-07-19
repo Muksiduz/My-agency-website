@@ -1,10 +1,14 @@
 import React from "react";
 
-const Contactus = () => {
+const Contactus = ({ color, text }) => {
   return (
-    <div className="min-h-screen overflow-hidden bg-white font-sans antialiased flex items-center justify-center py-12">
+    <div
+      className={`min-h-screen overflow-hidden bg-white font-sans antialiased flex items-center justify-center py-12`}>
       {/* Contact Us Section */}
-      <section className="bg-white p-8 md:p-12 lg:p-30 rounded-lg shadow-xl max-w-6xl mx-auto flex flex-col lg:flex-row border border-blue-200">
+      <section
+        className={`${
+          color ? color : "bg-white"
+        }  p-8 md:p-12 lg:p-30 rounded-lg shadow-xl max-w-6xl mx-auto flex flex-col lg:flex-row border border-blue-200`}>
         {/* Left Section - Contact Form */}
         <div className="flex-1 lg:pr-12 mb-8 lg:mb-0">
           <h2 className="text-3xl md:text-4xl font-extrabold text-gray-900 mb-8">
