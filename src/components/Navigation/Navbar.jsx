@@ -60,12 +60,12 @@ const Navbar = () => {
             className="text-gray-700 hover:text-blue-600 text-lg font-medium transition">
             Home
           </Link>
-          <a
-            href="#"
+          <Link
+            to="/service"
             className="text-gray-700 hover:text-blue-600 text-lg font-medium transition">
             Services
-          </a>
-          <a
+          </Link>
+          {/* <a
             href="#"
             className="text-gray-700 hover:text-blue-600 text-lg font-medium transition">
             Blogs
@@ -74,7 +74,7 @@ const Navbar = () => {
             href="#"
             className="text-gray-700 hover:text-blue-600 text-lg font-medium transition">
             Products
-          </a>
+          </a> */}
         </div>
 
         {/* Contact Us Button Desktop */}
@@ -88,17 +88,17 @@ const Navbar = () => {
       {/* Mobile Navigation Links */}
       {isOpen && (
         <div className="md:hidden flex flex-col items-start p-4 bg-white rounded-lg shadow-md space-y-4">
-          <a
-            href="#"
+          <Link
+            to="/"
             className="text-gray-700 hover:text-blue-600 text-lg font-medium transition">
             Home
-          </a>
-          <a
-            href="#"
+          </Link>
+          <Link
+            to="/service"
             className="text-gray-700 hover:text-blue-600 text-lg font-medium transition">
             Services
-          </a>
-          <a
+          </Link>
+          {/* <a
             href="#"
             className="text-gray-700 hover:text-blue-600 text-lg font-medium transition">
             Blogs
@@ -107,9 +107,9 @@ const Navbar = () => {
             href="#"
             className="text-gray-700 hover:text-blue-600 text-lg font-medium transition">
             Products
-          </a>
+          </a> */}
           <button className="w-full bg-gradient-to-r from-orange-500 to-orange-600 hover:from-orange-600 hover:to-orange-700 hover:scale-x-125 cursor-pointer text-white font-semibold py-2 rounded-lg shadow-md transition">
-            Contact us
+            <Link to="/contact">Contact us</Link>
           </button>
         </div>
       )}

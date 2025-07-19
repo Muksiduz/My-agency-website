@@ -9,6 +9,7 @@ import OurMarketingService from "../components/OurMarketing/OurMarketingService"
 import OurWebsiteServices from "../components/OurMarketing/OurWebsiteServices";
 import CaseStudies from "../components/CaseStudies/CaseStudies";
 import AboutFounder from "../components/AboutTheFounder/AboutFounder";
+import ReadyToBuild from "../components/CaseStudies/ReadyToBuild";
 
 const HomePage = () => {
   return (
@@ -20,6 +21,7 @@ const HomePage = () => {
       <OurWebsiteServices />
       <ChooseUs />
       <CaseStudies />
+      <ReadyToBuild />
       <AboutFounder />
       <Contactus />
       <Testimonials />

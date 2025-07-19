@@ -18,7 +18,7 @@ const Hero = () => {
           to bring you leads and customers.
         </p>
         <button className="mt-10 bg-gradient-to-r from-orange-500 to-orange-600 hover:from-orange-600 hover:to-orange-700 text-white cursor-pointer font-medium py-3 px-8 rounded-md shadow-md transition-all duration-300 hover:scale-105">
-          Get Free Consultation
+          <a href="tel:+917577918465">Get a Free Consultation</a>
         </button>
 
         {/* Website Screenshots Section */}

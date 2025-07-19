@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 
 const ChatBot = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -18,20 +19,20 @@ const ChatBot = () => {
               className="w-full text-left px-4 py-2 bg-blue-600 text-white rounded-md hover:bg-blue-700 transition duration-200 ease-in-out font-medium shadow-sm"
               onClick={() => alert("Navigating to Contact Us page...")} // Replace with actual navigation
             >
-              Contact Us
+              <Link to="/contact">Contact Us</Link>
             </button>
             <button
               className="w-full text-left px-4 py-2 bg-gray-200 text-gray-800 rounded-md hover:bg-gray-300 transition duration-200 ease-in-out font-medium shadow-sm"
-              onClick={() => alert("Calling: +123 456 7890")} // Replace with actual phone number
+              onClick={() => alert("Calling: +917577918465")} // Replace with actual phone number
             >
-              Phone Number
+              <a href="tel:+917577918465">Phone Number</a>
             </button>
-            <button
+            {/* <button
               className="w-full text-left px-4 py-2 bg-orange-600 text-white rounded-md hover:bg-orange-700 transition duration-200 ease-in-out font-medium shadow-sm"
-              onClick={() => alert("Requesting a call...")} // Replace with a modal/form for call request
+              // Replace with a modal/form for call request
             >
               Request a Call
-            </button>
+            </button> */}
           </div>
         )}
 

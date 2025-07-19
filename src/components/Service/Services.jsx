@@ -53,7 +53,7 @@ const Services = () => {
               Starting at : ₹ 3,000/- per month
             </p>
             <a
-              href="#"
+              href="tel:+917577918465"
               className="text-blue-600 hover:text-blue-800 text-sm font-semibold">
               Let's Talk
             </a>
@@ -87,7 +87,7 @@ const Services = () => {
               Starting at : ₹ 5,000/- per month
             </p>
             <a
-              href="#"
+              href="tel:+917577918465"
               className="text-blue-600 hover:text-blue-800 text-sm font-semibold">
               Let's Talk
             </a>
@@ -123,7 +123,7 @@ const Services = () => {
               Starting at : ₹ 5,000/- per month
             </p>
             <a
-              href="#"
+              href="tel:+917577918465"
               className="text-blue-600 hover:text-blue-800 text-sm font-semibold">
               Let's Talk
             </a>
@@ -158,7 +158,7 @@ const Services = () => {
               Starting at : ₹ 5,000/- per month
             </p>
             <a
-              href="#"
+              href="tel:+917577918465"
               className="text-blue-600 hover:text-blue-800 text-sm font-semibold">
               Let's Talk
             </a>

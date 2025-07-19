@@ -46,28 +46,28 @@ const OurWebsiteServices = () => {
         "Regular updates, backups, and performance checks to keep your website running smoothly and securely.",
     },
     {
-      id: 6,
+      id: 7,
       icon: "🔒",
       title: "Website Security",
       description:
         "Protect your website from threats with advanced security protocols, SSL, and monitoring tools.",
     },
     {
-      id: 7,
+      id: 8,
       icon: "📤",
       title: "Domain & Email Setup",
       description:
         "Professional domain and business email setup to enhance your brand credibility.",
     },
     {
-      id: 8,
+      id: 9,
       icon: "⚡",
       title: "Speed Optimization",
       description:
         "Optimize your website for faster loading speeds to improve SEO and enhance user experience.",
     },
     {
-      id: 9,
+      id: 10,
       icon: "🛎️",
       title: "Technical Support",
       description:
