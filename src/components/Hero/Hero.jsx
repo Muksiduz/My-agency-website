@@ -7,16 +7,17 @@ const Hero = () => {
     <>
       {/* Hero Section */}
       <section className="text-center py-16 px-4 max-w-4xl mx-auto">
-        <h1 className="text-4xl md:text-5xl font-extrabold text-gray-900 leading-tight">
-          Build Your Business Online—
-          <br />
-          <span className="text-orange-500">Beautiful Websites That Work</span>
+        <h1 className="text-4xl md:text-5xl font-bold text-gray-900 leading-tight">
+          We Help <span className="text-blue-600">Small Businesses</span> Get
+          More
+          <span className="text-blue-600"> Leads More Sales,</span> and a{" "}
+          <span className="text-orange-600">Strong Online Presence</span>.
         </h1>
-        <p className="mt-6 text-lg md:text-xl text-gray-600 max-w-2xl mx-auto">
+        <p className="mt-6 font-regular text-lg md:text-xl text-gray-500 max-w-2xl mx-auto">
           Get expert websites, digital marketing, and creative content designed
           to bring you leads and customers.
         </p>
-        <button className="mt-10 bg-blue-600 hover:bg-blue-900 text-white font-semibold py-5 cursor-pointer px-10 rounded-lg shadow-lg transition duration-300 ease-in-out transform hover:scale-105">
+        <button className="mt-10 bg-gradient-to-r from-orange-500 to-orange-600 hover:from-orange-600 hover:to-orange-700 text-white cursor-pointer font-medium py-3 px-8 rounded-md shadow-md transition-all duration-300 hover:scale-105">
           Get Free Consultation
         </button>
 

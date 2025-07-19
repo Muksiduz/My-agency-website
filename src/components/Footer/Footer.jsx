@@ -36,8 +36,8 @@ const Footer = () => {
             </div>
             <p className="text-sm leading-relaxed mb-6">
               Website Development | E-commerce Solutions | Digital Marketing |
-              Content Creation Helping schools, institutes, and businesses build
-              their online presence with modern, affordable solutions.
+              Content Creation
+              <br />
               <span className="pt-10">
                 <br />
                 📍 Assam, India <br />

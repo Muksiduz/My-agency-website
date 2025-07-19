@@ -13,7 +13,7 @@ const LetsTalk = () => {
             <span> Online </span>
             With Us!
           </h2>
-          <button className="mt-8 bg-blue-600 hover:bg-blue-700 text-white font-semibold py-4 px-24 rounded-lg shadow-lg transition duration-300 ease-in-out transform hover:scale-105">
+          <button className="mt-10 bg-gradient-to-r from-orange-500 to-orange-600 hover:from-orange-600 hover:to-orange-700 cursor-pointer text-white font-bold text-xl py-4 px-24 rounded-lg shadow-lg transition duration-300 ease-in-out transform hover:scale-105">
             Let's Talk
           </button>
         </div>
@@ -21,12 +21,14 @@ const LetsTalk = () => {
         {/* Right Section - Feature Cards */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {/* Feature Card 1 */}
-          <div className="relative bg-orange-500 text-white p-6 rounded-lg shadow-xl text-center flex flex-col items-center justify-center min-h-[200px] w-64">
+          <div className="relative bg-white text-gray-500 p-6 rounded-lg shadow-xl text-center flex flex-col items-center justify-center min-h-[200px] w-64">
             <div className="absolute -top-6 bg-white w-12 h-12 rounded-lg shadow-md flex items-center justify-center">
               {/* Placeholder for icon - you can use an SVG or an icon library */}
-              <span className="text-blue-900 text-2xl font-bold">✓</span>
+              <span className="text-orange-600 text-2xl font-bold">✓</span>
             </div>
-            <h3 className="mt-6 text-xl font-bold">24/7 Dedicated Support</h3>
+            <h3 className="mt-6 text-xl text-orange-500 font-bold">
+              24/7 Dedicated Support
+            </h3>
             <p className="mt-2 text-sm">
               Your business doesn’t stop — neither do we. Get fast, reliable
               support whenever you need help.
@@ -34,14 +36,14 @@ const LetsTalk = () => {
           </div>
 
           {/* Feature Card 2 */}
-          <div className="relative bg-orange-500 text-white p-6 rounded-lg shadow-xl text-center flex flex-col items-center justify-center min-h-[200px] w-64">
+          <div className="relative bg-white text-gray-500 p-6 rounded-lg shadow-xl text-center flex flex-col items-center justify-center min-h-[200px] w-64">
             <div className="absolute -top-6 bg-white w-12 h-12 rounded-lg shadow-md flex items-center justify-center">
               {/* Placeholder for icon */}
-              <span className="text-blue-900 text-2xl font-bold">✓</span>
+              <span className="text-orange-600 text-2xl font-bold">✓</span>
             </div>
-            <h3 className="mt-6 text-xl font-bold">
+            <h3 className="mt-6 text-xl text-orange-500 font-bold">
               {" "}
-              Grow Faster with Smart Ads and Meaningful Content
+              Grow Faster with Meaningful Content
             </h3>
             <p className="mt-2 text-sm">
               Let’s make sure every post, every ad, and every click moves your
@@ -50,12 +52,14 @@ const LetsTalk = () => {
           </div>
 
           {/* Feature Card 3 */}
-          <div className="relative bg-orange-500 text-white p-6 rounded-lg shadow-xl text-center flex flex-col items-center justify-center min-h-[200px] w-64">
+          <div className="relative bg-white text-gray-500 p-6 rounded-lg shadow-xl text-center flex flex-col items-center justify-center min-h-[200px] w-64">
             <div className="absolute -top-6 bg-white w-12 h-12 rounded-lg shadow-md flex items-center justify-center">
               {/* Placeholder for icon */}
-              <span className="text-blue-900 text-2xl font-bold">✓</span>
+              <span className="text-orange-600 text-2xl font-bold">✓</span>
             </div>
-            <h3 className="mt-6 text-xl font-bold">High Conversion Rates</h3>
+            <h3 className="mt-6 text-xl text-orange-500 font-bold">
+              High Conversion of Customers
+            </h3>
             <p className="mt-2 text-sm">
               Websites, Funnels & Ads, Optimized for your Business
             </p>

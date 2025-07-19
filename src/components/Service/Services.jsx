@@ -49,8 +49,8 @@ const Services = () => {
               Clean, modern, and mobile-friendly websites designed to represent
               your brand and convert visitors into customers.
             </p>
-            <p className="text-green-900 text-sm mb-4">
-              Startnig at : ₹ 3,000/- per month
+            <p className="text-green-900 font-bold text-sm mb-4">
+              Starting at : ₹ 3,000/- per month
             </p>
             <a
               href="#"
@@ -83,8 +83,8 @@ const Services = () => {
               Easy-to-manage online stores with secure payments, inventory
               management, and order tracking.
             </p>
-            <p className="text-green-900 text-sm mb-4">
-              Startnig at : ₹ 5,000/- per month
+            <p className="text-green-900 font-bold text-sm mb-4">
+              Starting at : ₹ 5,000/- per month
             </p>
             <a
               href="#"
@@ -119,8 +119,8 @@ const Services = () => {
               Social media marketing, paid ads, SEO, and lead generation to help
               you reach more people and grow faster.
             </p>
-            <p className="text-green-900 text-sm mb-4">
-              Startnig at : ₹ 5,000/- per month
+            <p className="text-green-900 font-bold text-sm mb-4">
+              Starting at : ₹ 5,000/- per month
             </p>
             <a
               href="#"
@@ -151,11 +151,11 @@ const Services = () => {
               Content Creation
             </h3>
             <p className="text-gray-600 text-sm mb-4">
-              Graphics, posts, reels, and videos that attract attention, build
-              trust, and keep your audience engaged.
+              Graphics,Pamplates, posts, reels, and videos that attract
+              attention, build trust, and keep your audience engaged.
             </p>
-            <p className="text-green-900 text-sm mb-4">
-              Startnig at : ₹ 5,000/- per month
+            <p className="text-green-900 text-sm font-bold mb-4">
+              Starting at : ₹ 5,000/- per month
             </p>
             <a
               href="#"
