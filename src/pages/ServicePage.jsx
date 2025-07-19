@@ -1,5 +1,5 @@
 import React from "react";
-import website from "../assets/website.png";
+import website from "../assets/Website.png";
 import ecommerce from "../assets/ecommerce.png";
 import social from "../assets/social.png";
 import digital from "../assets/digital.png";
