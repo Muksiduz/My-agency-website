@@ -7,10 +7,18 @@ import HomePage from "./pages/HomePage.jsx";
 import { Routes, Route } from "react-router-dom";
 import ServicePage from "./pages/ServicePage.jsx";
 
+import { motion } from "framer-motion";
+
 function App() {
   return (
     <>
-      <Navbar />
+      <motion.div
+        initial={{ y: -100, opacity: 0 }}
+        animate={{ y: 0, opacity: 1 }}
+        transition={{ duration: 2, ease: "easeOut" }}>
+        <Navbar />
+      </motion.div>
+
       <ChatBot />
       <Routes>
         <Route path="/" element={<HomePage />} />

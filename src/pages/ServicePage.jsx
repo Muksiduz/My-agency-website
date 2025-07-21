@@ -5,24 +5,33 @@ import social from "../assets/social.png";
 import digital from "../assets/digital.png";
 import content from "../assets/contentcreation.png";
 
+import { motion } from "framer-motion";
+
 // Reusable ServiceCard Component
 const ServiceCard = ({ image, title, description, price, link }) => {
   return (
-    <div className="bg-white rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300 ease-in-out overflow-hidden flex flex-col p-6">
+    <motion.div
+      whileHover={{
+        scale: 1.05,
+        y: -5,
+        boxShadow: "0 10px 20px rgba(0, 0, 0, 0.15)",
+      }}
+      transition={{ type: "spring", stiffness: 300 }}
+      className="bg-white rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300 ease-in-out overflow-hidden flex flex-col p-6">
       <img src={image} className="w-full h-68 object-cover" alt="" />
       <h3 className="text-2xl font-bold text-gray-800 mb-3 mt-3">{title}</h3>
       <p className="text-gray-600 text-sm leading-relaxed mb-4 flex-grow">
         {description}
       </p>
-      <div className="mt-auto pt-4 border-t border-gray-200">
-        <p className="text-lg font-semibold text-blue-600 mb-4">{price}</p>
+      <div className="mt-auto pt-4 ">
+        {/* <p className="text-lg font-semibold text-blue-600 mb-4">{price}</p> */}
         <a
           href={link}
-          className="inline-block bg-orange-600 hover:bg-orange-700 text-white font-semibold py-2 px-4 rounded-md shadow-md transition duration-300 ease-in-out transform hover:scale-105">
+          className="inline-block bg-gradient-to-r from-orange-300 to-orange-600 hover:from-orange-500 hover:to-orange-900 text-white font-semibold py-2 px-4 rounded-md shadow-md transition duration-300 ease-in-out transform hover:scale-105">
           <a href="tel:+917577918465"> Let's Talk</a>
         </a>
       </div>
-    </div>
+    </motion.div>
   );
 };
 
@@ -80,7 +89,7 @@ function ServicePage() {
   return (
     <div className="min-h-screen bg-gray-100 font-sans antialiased flex flex-col">
       {/* Hero Section for Services Page */}
-      <section className="bg-blue-800 text-white py-16 px-4 md:px-8 lg:px-16 text-center">
+      <section className="bg-gradient-to-r from-orange-300 to-orange-600 hover:from-orange-500 hover:to-orange-900 text-white py-16 px-4 md:px-8 lg:px-16 text-center">
         <h1 className="text-4xl md:text-5xl font-extrabold leading-tight mb-4">
           Our Comprehensive Services
         </h1>

@@ -93,12 +93,12 @@ const OurWebsiteServices = () => {
         {websiteServices.map((service) => (
           <div
             key={service.id}
-            className="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300 ease-in-out flex flex-col items-start text-left">
+            className="bg-white p-6 rounded-lg shadow-md hover:bg-gradient-to-r hover:from-orange-300 hover:to-orange-600 hover:text-white transition-shadow duration-300 ease-in-out flex flex-col items-start text-left group">
             <div className="mb-4">{service.icon}</div>
-            <h3 className="text-xl font-bold text-gray-800 mb-2">
+            <h3 className="text-xl font-bold mb-2 group-hover:text-white">
               {service.title}
             </h3>
-            <p className="text-gray-600 text-sm leading-relaxed">
+            <p className="text-gray-600 text-sm leading-relaxed group-hover:text-gray-200">
               {service.description}
             </p>
           </div>

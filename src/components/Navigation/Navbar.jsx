@@ -1,5 +1,5 @@
 import { useState } from "react";
-import logo from "../../assets/logo.jpg";
+import logo from "../../assets/sizz.png";
 
 import { Link } from "react-router-dom";
 
@@ -13,14 +13,15 @@ const Navbar = () => {
         {/* Logo and Brand Name */}
 
         <Link className="flex items-center space-x-2" to="/">
-          <div className="w-10 h-10 bg-gray-200 rounded-full flex items-center justify-center">
-            <img
-              src={logo}
-              className="w-20 h-20 object-cover rounded-full"
-              alt="logo"
-            />
-          </div>
-          <span className="text-orange-500 text-2xl font-bold">Saabr</span>
+          <img
+            src={logo}
+            className="w-15 h-15  flex items-center justify-center object-cover rounded-full"
+            alt="logo"
+          />
+
+          <span className="text-orange-500 text-2xl font-bold font-sans italic">
+            Osizz.com
+          </span>
         </Link>
 
         {/* Hamburger Menu (Mobile) */}
@@ -79,7 +80,7 @@ const Navbar = () => {
 
         {/* Contact Us Button Desktop */}
         <div className="hidden md:block">
-          <button className="bg-gradient-to-r from-orange-500 to-orange-600 hover:from-orange-600 hover:to-orange-700 cursor-pointer text-white font-semibold py-2 px-6 rounded-lg shadow-md transition">
+          <button className="bg-gradient-to-r from-orange-300 to-orange-600 hover:from-orange-500 hover:to-orange-900 cursor-pointer text-white font-semibold py-2 px-6 rounded-lg shadow-md transition">
             <Link to="/contact">Contact us</Link>
           </button>
         </div>

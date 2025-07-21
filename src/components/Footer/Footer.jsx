@@ -1,4 +1,4 @@
-import React from "react";
+import logo from "../../assets/sizz3.png";
 
 const Footer = () => {
   return (
@@ -23,16 +23,13 @@ const Footer = () => {
           <div className="col-span-1 md:col-span-2 lg:col-span-1">
             <div className="flex items-center mb-4">
               {/* Logo Placeholder (using SVG for the wave effect) */}
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                className="h-8 w-8 text-blue-800 mr-2"
-                viewBox="0 0 24 24"
-                fill="currentColor">
-                <path d="M12 2C6.486 2 2 6.486 2 12s4.486 10 10 10 10-4.486 10-10S17.514 2 12 2zm0 18c-4.411 0-8-3.589-8-8s3.589-8 8-8 8 3.589 8 8-3.589 8-8 8zm-4.707-8.293l-1.414 1.414L12 17.414l6.121-6.121-1.414-1.414L12 14.586l-4.707-4.707z" />
-              </svg>
-              <span className="text-orange-500 text-2xl font-bold">
-                Saabr Digitals
-              </span>
+
+              <img
+                src={logo}
+                className="h-15 w-15 rounded-full text-blue-800 mr-2"
+                alt="Company Logo"
+              />
+              <span className="text-orange-500 text-2xl font-bold">Osizz</span>
             </div>
             <p className="text-sm leading-relaxed mb-6">
               Website Development | E-commerce Solutions | Digital Marketing |

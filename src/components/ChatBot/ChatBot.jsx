@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
+import { motion } from "framer-motion";
 
 const ChatBot = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -11,7 +12,16 @@ const ChatBot = () => {
   return (
     <>
       {/* Sticky Contact Bubble */}
-      <div className="fixed bottom-4 right-4 z-50 flex flex-col items-end space-y-3">
+      <motion.div
+        animate={{
+          y: [0, -10, 0], // Moves up by 10px then back
+        }}
+        transition={{
+          duration: 1.5, // How long one full cycle takes
+          repeat: Infinity, // Repeat forever
+          ease: "easeInOut", // Smooth easing
+        }}
+        className="fixed bottom-4 right-4 z-50 flex flex-col items-end space-y-3">
         {/* Expanded Options */}
         {isOpen && (
           <div className="bg-white p-4 rounded-lg shadow-lg flex flex-col space-y-3 animate-fade-in-up">
@@ -39,7 +49,7 @@ const ChatBot = () => {
         {/* Main Circular Toggle Button */}
         <button
           onClick={toggleOpen}
-          className="bg-orange-600 hover:bg-orange-700 text-white w-14 h-14 rounded-full shadow-lg flex items-center justify-center transition duration-300 ease-in-out transform hover:scale-110 focus:outline-none focus:ring-2 focus:ring-orange-400 cursor-pointer focus:ring-offset-2"
+          className="bg-gradient-to-r from-orange-300 to-orange-600 hover:from-orange-500 hover:to-orange-900  text-white w-14 h-14 rounded-full shadow-lg flex items-center justify-center transition duration-300 ease-in-out transform hover:scale-110 focus:outline-none focus:ring-2 focus:ring-orange-400 cursor-pointer focus:ring-offset-2"
           aria-label={
             isOpen ? "Close contact options" : "Open contact options"
           }>
@@ -75,7 +85,7 @@ const ChatBot = () => {
             </svg>
           )}
         </button>
-      </div>
+      </motion.div>
 
       {/* Tailwind CSS custom animation for fade-in-up */}
       <style>

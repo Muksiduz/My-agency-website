@@ -20,7 +20,7 @@ const HomePage = () => {
       <OurMarketingService />
       <OurWebsiteServices />
       <ChooseUs />
-      <CaseStudies />
+      {/* <CaseStudies /> */}
       <ReadyToBuild />
       <AboutFounder />
       <Contactus />

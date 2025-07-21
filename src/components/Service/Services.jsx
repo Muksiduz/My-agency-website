@@ -49,9 +49,6 @@ const Services = () => {
               Clean, modern, and mobile-friendly websites designed to represent
               your brand and convert visitors into customers.
             </p>
-            <p className="text-green-900 font-bold text-sm mb-4">
-              Starting at : ₹ 3,000/- per month
-            </p>
             <a
               href="tel:+917577918465"
               className="text-blue-600 hover:text-blue-800 text-sm font-semibold">
@@ -82,9 +79,6 @@ const Services = () => {
             <p className="text-gray-600 text-sm mb-4">
               Easy-to-manage online stores with secure payments, inventory
               management, and order tracking.
-            </p>
-            <p className="text-green-900 font-bold text-sm mb-4">
-              Starting at : ₹ 5,000/- per month
             </p>
             <a
               href="tel:+917577918465"
@@ -119,9 +113,6 @@ const Services = () => {
               Social media marketing, paid ads, SEO, and lead generation to help
               you reach more people and grow faster.
             </p>
-            <p className="text-green-900 font-bold text-sm mb-4">
-              Starting at : ₹ 5,000/- per month
-            </p>
             <a
               href="tel:+917577918465"
               className="text-blue-600 hover:text-blue-800 text-sm font-semibold">
@@ -154,9 +145,7 @@ const Services = () => {
               Graphics,Pamplates, posts, reels, and videos that attract
               attention, build trust, and keep your audience engaged.
             </p>
-            <p className="text-green-900 text-sm font-bold mb-4">
-              Starting at : ₹ 5,000/- per month
-            </p>
+
             <a
               href="tel:+917577918465"
               className="text-blue-600 hover:text-blue-800 text-sm font-semibold">

@@ -15,7 +15,7 @@ const ReadyToBuild = () => {
             <br />
             With Us?
           </h2>
-          <button className="mt-8 bg-orange-600 hover:bg-orange-700 text-white font-semibold py-3 px-8 rounded-lg shadow-lg transition duration-300 ease-in-out transform hover:scale-105">
+          <button className="mt-8 bg-gradient-to-r from-orange-300 to-orange-600 hover:from-orange-500 hover:to-orange-900 cursor-pointer text-white font-semibold py-3 px-8 rounded-lg shadow-lg transition duration-300 ease-in-out transform hover:scale-105">
             <a href="tel:+917577918465">Get a Free Consultation</a>
           </button>
         </div>

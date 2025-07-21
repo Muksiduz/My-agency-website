@@ -28,21 +28,29 @@ const AboutFounder = () => {
           <h3 className="text-2xl font-semibold text-blue-600 mb-4">
             Muksiduz Zaman
           </h3>
-          <p className="text-gray-700 leading-relaxed mb-6">
-            At the heart of Saabr Digital is a simple goal: to help small
-            businesses grow online with creativity, consistency, and results. I
-            started this journey with a passion for website development, digital
-            marketing, and content creation, driven by the belief that every
-            business — no matter how small — deserves a digital presence that
-            works. My experience comes not from big agencies but from hands-on
+          <p className="text-gray-600 leading-relaxed mb-6">
+            At the heart of Osizz is a simple goal: to help small businesses
+            grow online with creativity, consistency, and results.
+            <br /> <br />I started this journey solo with a passion for website
+            development, digital marketing, and content creation, driven by the
+            belief that every business — no matter how small — deserves a
+            digital presence that works.
+            <br />
+            <br /> My experience comes not from big agencies but from hands-on
             work, solving real problems for real businesses. With a background
             in web development, content creation, and marketing strategies, I
             understand the unique challenges that small and local businesses
-            face. I’ve built Saabr Digital as a platform where companies can get
+            face.
+            <br />
+            <br /> I’ve built Osizz as a platform where companies can get
             reliable, affordable, and effective digital solutions without any
-            unnecessary complexity or jargon. At Saabr Digital, it’s not just
-            about delivering a service. It’s about helping clients generate
-            leads, create impact, and build trust with their audience.
+            unnecessary complexity or jargon. <br />
+            <span className="font-semibold italic">
+              {" "}
+              At Osizz, it’s not just about delivering a service. It’s about
+              helping clients generate leads, create impact, and build trust
+              with their audience.
+            </span>
           </p>
 
           <p className="text-gray-700 leading-relaxed italic border-l-4 border-orange-500 pl-4 py-2">

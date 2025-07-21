@@ -13,43 +13,20 @@ const Contactus = () => {
             Get in Touch
           </h2>
           <form className="space-y-6">
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div className="grid grid-cols-1 md:grid-cols-1 gap-6">
               <div>
                 <label
-                  htmlFor="firstName"
+                  htmlFor="name"
                   className="block text-sm font-medium text-gray-700 uppercase tracking-wide">
                   Name
                 </label>
                 <input
                   type="text"
-                  id="firstName"
-                  name="firstName"
+                  id="name"
+                  name="name"
                   className="mt-1 block w-full px-4 py-2 border border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500 sm:text-sm"
-                  placeholder="Your first name"
+                  placeholder="Your name"
                 />
-              </div>
-              <div>
-                <label
-                  htmlFor="lastName"
-                  className="block text-sm font-medium text-gray-700 uppercase tracking-wide">
-                  Intrested Sector
-                </label>
-                <select
-                  id="services"
-                  name="services"
-                  className="block w-full px-4 py-2 border border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500 sm:text-sm">
-                  <option>Website Development</option>
-                  <option>Digital Marketing</option>
-                  <option>E-commerce Development</option>
-                  <option>Content Creation</option>
-                  <option>Social Media Marketing</option>
-                  <option>SEO (Search Engine Optimization)</option>{" "}
-                  {/* Good addition for your agency */}
-                  <option>Branding & Logo Design</option>{" "}
-                  {/* Also highly requested */}
-                  <option>UI/UX Design</option>{" "}
-                  {/* Helps complete your offering */}
-                </select>
               </div>
             </div>
 
@@ -100,7 +77,7 @@ const Contactus = () => {
 
             <button
               type="submit"
-              className="w-full bg-orange-600 hover:bg-orange-700 text-white font-semibold py-3 px-6 rounded-md shadow-lg transition duration-300 ease-in-out transform hover:scale-105 focus:outline-none focus:ring-2 focus:ring-orange-500 focus:ring-offset-2">
+              className="w-full bg-gradient-to-r from-orange-300 to-orange-600 hover:from-orange-500 hover:to-orange-900 cursor-pointer text-white font-semibold py-3 px-6 rounded-md shadow-lg transition duration-300 ease-in-out transform hover:scale-105 focus:outline-none focus:ring-2 focus:ring-orange-500 focus:ring-offset-2">
               Submit
             </button>
           </form>
@@ -150,7 +127,7 @@ const Contactus = () => {
                   d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8m-1 13a2 2 0 01-2 2H4a2 2 0 01-2-2V7a2 2 0 012-2h16a2 2 0 012 2v14z"
                 />
               </svg>
-              <span>Muksiduzz@gmail.com</span>
+              <span>contact@osizz.com</span>
             </div>
             <div className="flex items-center text-gray-700">
               <svg
@@ -171,7 +148,7 @@ const Contactus = () => {
                   d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"
                 />
               </svg>
-              <span>Barpeta,Assam</span>
+              <span>Guwahati,Assam</span>
             </div>
           </div>
 
@@ -224,8 +201,9 @@ const Contactus = () => {
               </svg>
             </a>
             <a
-              href="#"
-              className="text-gray-500 hover:text-blue-600 transition-colors duration-300">
+              href="https://www.instagram.com/osizz__?utm_source=ig_web_button_share_sheet&igsh=MTJyM3dnNHEyeGE5dg=="
+              target="_blank"
+              className="text-gray-500 hover:text-orange-500 transition-colors duration-300">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 className="h-6 w-6"

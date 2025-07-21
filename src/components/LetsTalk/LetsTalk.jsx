@@ -1,4 +1,5 @@
 import React from "react";
+import { motion } from "framer-motion";
 
 const LetsTalk = () => {
   return (
@@ -21,7 +22,16 @@ const LetsTalk = () => {
         {/* Right Section - Feature Cards */}
         <div className=" grid grid-cols-1 md:grid-cols-3 gap-8">
           {/* Feature Card 1 */}
-          <div className="relative bg-white text-gray-500 p-6 rounded-lg shadow-xl text-center flex flex-col items-center justify-center min-h-[200px] w-64">
+          <motion.div
+            animate={{
+              y: [0, -5, 0], // Moves up by 10px then back
+            }}
+            transition={{
+              duration: 1.5, // How long one full cycle takes
+              repeat: Infinity, // Repeat forever
+              ease: "easeInOut", // Smooth easing
+            }}
+            className="relative bg-white text-gray-500 p-6 rounded-lg shadow-xl text-center flex flex-col items-center justify-center min-h-[200px] w-64">
             <div className="absolute -top-6 bg-white w-12 h-12 rounded-lg shadow-md flex items-center justify-center">
               {/* Placeholder for icon - you can use an SVG or an icon library */}
 
@@ -46,10 +56,19 @@ const LetsTalk = () => {
               Your business doesn’t stop — neither do we. Get fast, reliable
               support whenever you need help.
             </p>
-          </div>
+          </motion.div>
 
           {/* Feature Card 2 */}
-          <div className="relative bg-white text-gray-500 p-6 rounded-lg shadow-xl text-center flex flex-col items-center justify-center min-h-[200px] w-64">
+          <motion.div
+            animate={{
+              y: [0, -5, 0], // Moves up by 10px then back
+            }}
+            transition={{
+              duration: 1.5, // How long one full cycle takes
+              repeat: Infinity, // Repeat forever
+              ease: "easeInOut", // Smooth easing
+            }}
+            className="relative bg-white text-gray-500 p-6 rounded-lg shadow-xl text-center flex flex-col items-center justify-center min-h-[200px] w-64">
             <div className="absolute -top-6 bg-white w-12 h-12 rounded-lg shadow-md flex items-center justify-center">
               {/* Placeholder for icon */}
               <svg
@@ -81,10 +100,19 @@ const LetsTalk = () => {
               Let’s make sure every post, every ad, and every click moves your
               business forward..
             </p>
-          </div>
+          </motion.div>
 
           {/* Feature Card 3 */}
-          <div className="relative bg-white text-gray-500 p-6 rounded-lg shadow-xl text-center flex flex-col items-center justify-center min-h-[200px] w-64">
+          <motion.div
+            animate={{
+              y: [0, -5, 0], // Moves up by 10px then back
+            }}
+            transition={{
+              duration: 1.5, // How long one full cycle takes
+              repeat: Infinity, // Repeat forever
+              ease: "easeInOut", // Smooth easing
+            }}
+            className="relative bg-white text-gray-500 p-6 rounded-lg shadow-xl text-center flex flex-col items-center justify-center min-h-[200px] w-64">
             <div className="absolute -top-6 bg-white w-12 h-12 rounded-lg shadow-md flex items-center justify-center">
               {/* Placeholder for icon */}
               <svg
@@ -111,7 +139,7 @@ const LetsTalk = () => {
             <p className="mt-2 text-sm">
               Websites, Funnels & Ads, Optimized for your Business
             </p>
-          </div>
+          </motion.div>
         </div>
       </section>
     </div>
