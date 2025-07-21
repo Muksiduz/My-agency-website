@@ -20,7 +20,7 @@ const Navbar = () => {
           />
 
           <span className="text-orange-500 text-2xl font-bold font-sans italic">
-            Osizz.com
+            Osizz
           </span>
         </Link>
 
